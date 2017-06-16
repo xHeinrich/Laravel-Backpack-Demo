@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'default' => env('FILESYSTEM_DRIVER', 'local'),
+    'default' => 'local',
 
     /*
     |--------------------------------------------------------------------------
@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'cloud' => env('FILESYSTEM_CLOUD', 's3'),
+    'cloud' => 's3',
 
     /*
     |--------------------------------------------------------------------------
@@ -42,6 +42,12 @@ return [
     */
 
     'disks' => [
+      
+        'storage' => [
+            'driver' => 'local',
+            'root'   => storage_path(),
+
+        ],
 
         'local' => [
             'driver' => 'local',
