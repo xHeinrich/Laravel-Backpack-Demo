@@ -1,6 +1,5 @@
-# Masquerpet
-A simple front and backend for the Hellion C# FlyFF Emulator written using PHP/Laravel. Currently there
-is no administration auth out of the box however this will be written soon.
+# Laravel Backpack Start
+The fully installed Laravel Backpack package on a default laravel 5.4 installation
 
 # Packages/Frameworks
 - Laravel 5.4 (https://laravel.com/docs/5.4)
@@ -13,7 +12,7 @@ is no administration auth out of the box however this will be written soon.
 - NodeJS/NPM
 
 # Installation
-This Laravel installation includes migrations for the game server sql file. To install
+This Laravel installation includes all required migrations. To install
 simply pull the repo and run the following commands from the projects root folder:
 - $ composer update
 - At this point a .env file should have been generated, set up your configuration settings for mysql in here
